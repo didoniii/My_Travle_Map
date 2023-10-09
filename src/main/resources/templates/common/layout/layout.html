@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="utf-8">
+    <title class="bold white">My Travle Map</title>
+    <link rel="icon" type="image/png" href="img/icons8-earth-planet-16.png" />
+    <!-- BEGIN Base CSS -->
+    <!-- END Base CSS -->
+    <th:block layout:fragment="pageStyle"></th:block>
+</head>
+<body>
+    <header>
+        <!--<h1>My website</h1>-->
+    </header>
+    <!-- BEGIN Page Content -->
+    <th:block layout:fragment="pageMain"></th:block>
+    <!-- END Page Content -->
+
+    <footer>
+        <span class="copyright">&copy; 2023. jisunOh all rights reserved. Design: <a href="http://html5up.net">HTML5 UP</a>. Icons by <a target="_blank" href="https://icons8.com">Icons8</a></span>
+    </footer>
+
+    <!-- BEGIN Base script -->
+    <!-- END Base script -->
+
+    <th:block layout:fragment="pageScript"></th:block>
+</body>
+</html>
