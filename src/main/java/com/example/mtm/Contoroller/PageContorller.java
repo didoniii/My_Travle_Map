@@ -15,4 +15,8 @@ public class PageContorller {
         return "login";
     }
 
+    @GetMapping("/main")
+    public String main() {
+        return "main";
+    }
 }

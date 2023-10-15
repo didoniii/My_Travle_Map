@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{common/layout/layout}">
+
+<th:block layout:fragment="pageStyle">
+  <style>
+    	/* 개별 css추가 */
+    </style>
+</th:block>
+
+<th:block layout:fragment="leftSlide">
+  // 왼쪽 사이드바
+</th:block>
+
+<th:block layout:fragment="pageMain">
+  <!--Left Aside 이 없을땐 .nav-function-hidden-important 이 있어야함-->
+
+</th:block>
+
+<th:block layout:fragment="pageScript">
+  <!--개별 js file import -->
+  <script type="text/javascript">
+		// 개별 js code
+    </script>
+</th:block>
+</html>
